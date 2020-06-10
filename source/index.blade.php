@@ -33,7 +33,7 @@
 					<div class="flex flex-col bg-gray-800 text-white sm:text-lg md:text-xl lg:text-base ipe">
 						<div class="flex header h-64 lg:h-48 bg-cover bg-center">
 							<div class="self-center mx-auto w-3/4">
-								<img src="assets/img/journals/ipe-logo-compressed.png" data-src="assets/img/journals/ipe-logo-compressed.png" alt="Industrial, Plant & Equipment" class="lazyload">                                                                                                                   
+								<img src="assets/img/journals/ipe-logo-compressed.png" alt="Industrial, Plant & Equipment">                                                                                                                   
 							</div>
 						</div>
 						<div class="w-full mt-8 mb-6 font-bold text-xl text-white px-8 uppercase tracking-tight leading-tight heading">Industrial, Plant &amp; Equipment</div>
@@ -47,7 +47,7 @@
 						<div class="flex justify-end pt-4 pb-8 pr-8">
 							<a href="https://www.ipesearch.co.uk" target="_blank" rel="noopener" class="font-bold py-3 px-4 uppercase">
 								Find out more                                
-								<img class="ml-2 lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
+								<img class="ml-2" src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                          
 					</div>
@@ -55,7 +55,7 @@
 					<div class="flex flex-col bg-gray-800 text-white sm:text-lg md:text-xl lg:text-base hsm">
 						<div class="flex header h-64 lg:h-48 bg-cover bg-center">
 							<div class="self-center mx-auto w-3/4">
-								<img src="assets/img/journals/hsm-logo-compressed.png" data-src="assets/img/journals/hsm-logo-compressed.png" alt="Health & Safety Matters" class="lazyload">                                                                                                                   
+								<img src="assets/img/journals/hsm-logo-compressed.png" alt="Health & Safety Matters">                                                                                                                   
 							</div>
 						</div>
 						<div class="w-full mt-8 mb-6 font-bold text-xl text-white px-8 uppercase tracking-tight leading-tight heading">Health &amp; Safety Matters</div>
@@ -69,7 +69,7 @@
 						<div class="flex justify-end pt-4 pb-8 pr-8">
 							<a href="https://www.hsmsearch.com" target="_blank" rel="noopener" class="text-white font-bold py-3 px-4 uppercase">
 								Find out more                                
-								<img class="ml-2 text-xl lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
+								<img class="ml-2 text-xl" src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                                                  
 					</div>
@@ -77,7 +77,7 @@
 					<div class="flex flex-col bg-gray-800 text-white sm:text-lg md:text-xl lg:text-base hss">
 						<div class="flex header h-64 lg:h-48 bg-cover bg-center">
 							<div class="self-center mx-auto w-3/4">
-								<img src="assets/img/journals/hss-logo-compressed.png" data-src="assets/img/journals/hss-logo-compressed.png" alt="Handling & Storage Solutions" class="lazyload">                                                                                                                   
+								<img src="assets/img/journals/hss-logo-compressed.png" alt="Handling & Storage Solutions">                                                                                                                   
 							</div>
 						</div>
 						<div class="w-full mt-8 mb-6 font-bold text-xl text-white px-8 uppercase tracking-tight leading-tight heading">Handling &amp; Storage Solutions</div>
@@ -91,7 +91,7 @@
 						<div class="flex justify-end pt-4 pb-6 pr-6">
 							<a href="https://www.hsssearch.co.uk" target="_blank" rel="noopener" class="font-bold py-3 px-4 uppercase">
 								Find out more                                
-								<img class="ml-2 lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
+								<img class="ml-2" src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                          
 					</div>
@@ -99,7 +99,7 @@
 					<div class="flex flex-col bg-gray-800 text-white sm:text-lg md:text-xl lg:text-base cm">
 						<div class="flex header h-64 lg:h-48 bg-cover bg-center">
 							<div class="self-center mx-auto w-3/4">
-								<img src="assets/img/journals/cm-logo-compressed.png" data-src="assets/img/journals/cm-logo-compressed.png" alt="Cleaning Matters" class="lazyload">                                                                                                                   
+								<img src="assets/img/journals/cm-logo-compressed.png" alt="Cleaning Matters">                                                                                                                   
 							</div>
 						</div>
 						<div class="w-full mt-8 mb-6 font-bold text-xl text-white px-8 uppercase tracking-tight leading-tight heading">Cleaning Matters</div>
@@ -113,7 +113,7 @@
 						<div class="flex justify-end pt-4 pb-6 pr-6">
 							<a href="https://www.cleaning-matters.co.uk" target="_blank" rel="noopener" class="font-bold py-3 px-4 uppercase">
 								Find out more                                
-								<img class="ml-2 lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
+								<img class="ml-2" src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                          
 					</div>
@@ -121,7 +121,7 @@
 					<div class="flex flex-col bg-gray-800 text-white sm:text-lg md:text-xl lg:text-base cda">
 						<div class="flex header h-64 lg:h-48 bg-cover bg-center">
 							<div class="self-center mx-auto w-3/4">
-								<img src="assets/img/journals/cda-logo-compressed.png" data-src="assets/img/journals/cda-logo-compressed.png" alt="Controls, Drives & Automation" class="lazyload">                                                                                                                   
+								<img src="assets/img/journals/cda-logo-compressed.png" alt="Controls, Drives & Automation">                                                                                                                   
 							</div>
 						</div>
 						<div class="w-full mt-8 mb-6 font-bold text-xl text-white px-8 uppercase tracking-tight leading-tight heading">Controls, Drives &amp; Automation</div>
@@ -136,7 +136,7 @@
 						<div class="flex justify-end pt-4 pb-8 pr-8">
 							<a href="https://www.controlsdrivesautomation.com" target="_blank" rel="noopener" class="font-bold py-3 px-4 uppercase">
 								Find out more                                
-								<img class="ml-2 lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
+								<img class="ml-2" src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                          
 					</div>
@@ -144,7 +144,7 @@
 					<div class="flex flex-col bg-gray-800 text-white sm:text-lg md:text-xl lg:text-base fsm">
 						<div class="flex header h-64 lg:h-48 bg-cover bg-center">
 							<div class="self-center mx-auto w-3/4">
-								<img src="assets/img/journals/fsm-logo-compressed.png" data-src="assets/img/journals/fsm-logo-compressed.png" alt="Fire Safety Matters" class="lazyload">                                                                                                                   
+								<img src="assets/img/journals/fsm-logo-compressed.png" alt="Fire Safety Matters">                                                                                                                   
 							</div>
 						</div>
 						<div class="w-full mt-8 mb-6 font-bold text-xl text-white px-8 uppercase tracking-tight leading-tight heading">Fire Safety Matters</div>
@@ -158,7 +158,7 @@
 						<div class="flex justify-end pt-4 pb-8 pr-8">
 							<a href="https://www.fsmatters.com" target="_blank" rel="noopener" class="text-white font-bold py-3 px-4 uppercase">
 								Find out more                                
-								<img class="ml-2 text-xl lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
+								<img class="ml-2 text-xl" src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                          
 					</div>
@@ -166,7 +166,7 @@
 					<div class="flex flex-col bg-gray-800 text-white sm:text-lg md:text-xl lg:text-base sm">
 						<div class="flex header h-64 lg:h-48 bg-cover bg-center">
 							<div class="self-center mx-auto w-3/4">
-								<img src="assets/img/journals/sm-logo-compressed.png" data-src="assets/img/journals/sm-logo-compressed.png" alt="Security Matters" class="lazyload">                                                                                                                   
+								<img src="assets/img/journals/sm-logo-compressed.png" alt="Security Matters">
 							</div>
 						</div>
 						<div class="w-full mt-8 mb-6 font-bold text-xl text-white px-8 uppercase tracking-tight leading-tight heading">Security Matters</div>
@@ -180,7 +180,7 @@
 						<div class="flex justify-end pt-4 pb-8 pr-8">
 							<a href="https://www.fsmatters.com/security-matters" target="_blank" rel="noopener" class="font-bold py-3 px-4 uppercase">
 								Find out more                                
-								<img class="ml-2 lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
+								<img class="ml-2" src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                          
 					</div>
@@ -188,7 +188,7 @@
 					<div class="flex flex-col bg-gray-800 text-white sm:text-lg md:text-xl lg:text-base fm">
 						<div class="flex header h-64 lg:h-48 bg-cover bg-center">
 							<div class="self-center mx-auto w-3/4">
-								<img src="assets/img/journals/fm-logo-compressed.png" data-src="assets/img/journals/fm-logo-compressed.png" alt="Facilities Matters" class="lazyload">                                                                                                                   
+								<img src="assets/img/journals/fm-logo-compressed.png" alt="Facilities Matters">                                                                                                                   
 							</div>
 						</div>
 						<div class="w-full mt-8 mb-6 font-bold text-xl text-white px-8 uppercase tracking-tight leading-tight heading">Facilities Matters</div>
@@ -202,7 +202,7 @@
 						<div class="flex justify-end pt-4 pb-8 pr-8">
 							<a href="https://www.cleaning-matters.co.uk/facilities-matters" rel="noopener" target="_blank" class="py-3 px-4 font-bold uppercase">
 								Find out more                                
-								<img class="ml-2 lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
+								<img class="ml-2" src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                          
 					</div>
@@ -210,7 +210,7 @@
 					<div class="flex flex-col bg-gray-800 text-white sm:text-lg md:text-xl lg:text-base mmi">
 						<div class="flex header h-64 lg:h-48 bg-cover bg-center">
 							<div class="self-center mx-auto w-3/4">
-								<img src="assets/img/journals/mmi-logo-compressed.png" data-src="assets/img/journals/mmi-logo-compressed.png" alt="Manufacturing Matters Ireland" class="lazyload">                                                                                                                   
+								<img src="assets/img/journals/mmi-logo-compressed.png" alt="Manufacturing Matters Ireland">                                                                                                                   
 							</div>
 						</div>
 						<div class="w-full mt-8 mb-6 font-bold text-xl text-white px-8 uppercase tracking-tight leading-tight heading">Manufacturing Matters Ireland</div>
@@ -224,7 +224,7 @@
 						<div class="flex justify-end pt-4 pb-8 pr-8">
 							<a href="https://www.ipesearch.co.uk/mmi" target="_blank" rel="noopener" class="py-3 px-4 font-bold uppercase">
 								Find out more                                
-								<img class="ml-2 lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
+								<img class="ml-2" src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                          
 					</div>                                      
@@ -384,37 +384,37 @@
 
 				<div class="flex flex-wrap justify-center w-full mb-4">
 					<div class="w-1/2 md:w-1/3 lg:w-1/5">
-						<img src="assets/img/clients/client-bsif-compressed.png" data-src="assets/img/clients/client-bsif-compressed.png" class="lazyload" alt="BSIF">
+						<img src="assets/img/clients/client-bsif-compressed.png" alt="BSIF">
 					</div>
 					<div class="w-1/2 md:w-1/3 lg:w-1/5">
-						<img src="assets/img/clients/client-iirsm-compressed.png" data-src="assets/img/clients/client-iirsm-compressed.png" class="lazyload" alt="IIRSM">
+						<img src="assets/img/clients/client-iirsm-compressed.png" alt="IIRSM">
 					</div>
 					<div class="w-1/2 md:w-1/3 lg:w-1/5">
-						<img src="assets/img/clients/client-nineteen-compressed.png" data-src="assets/img/clients/client-nineteen-compressed.png" class="lazyload" alt="Nineteen">
+						<img src="assets/img/clients/client-nineteen-compressed.png" alt="Nineteen">
 					</div>
 					<div class="w-1/2 md:hidden lg:block lg:w-1/5">
-						<img src="assets/img/clients/client-ssaib-compressed.png" data-src="assets/img/clients/client-ssaib-compressed.png" class="lazyload" alt="SSAIB">
+						<img src="assets/img/clients/client-ssaib-compressed.png" alt="SSAIB">
 					</div>                                    
 				</div>
 
 				<div class="flex flex-wrap w-full mb-4">
 					<div class="hidden md:block md:w-1/3 lg:hidden">
-						<img src="assets/img/clients/client-ssaib-compressed.png" data-src="assets/img/clients/client-ssaib-compressed.png" class="lazyload" alt="SSAIB">
+						<img src="assets/img/clients/client-ssaib-compressed.png" alt="SSAIB">
 					</div>
 					<div class="w-1/2 md:w-1/3 lg:w-1/5">
-						<img src="assets/img/clients/client-facilities-event-compressed.png" data-src="assets/img/clients/client-facilities-event-compressed.png" class="lazyload" alt="The Faciliites Event">
+						<img src="assets/img/clients/client-facilities-event-compressed.png" alt="The Faciliites Event">
 					</div>   
 					<div class="w-1/2 md:w-1/3 lg:w-1/5">
-						<img src="assets/img/clients/client-fire-safety-event-compressed.png" data-src="assets/img/clients/client-fire-safety-event-compressed.png" class="lazyload" alt="The Fire Safety Event">
+						<img src="assets/img/clients/client-fire-safety-event-compressed.png" alt="The Fire Safety Event">
 					</div>
 					<div class="w-1/2 md:w-1/3 lg:w-1/5">
-						<img src="assets/img/clients/client-health-safety-event-compressed.png" data-src="assets/img/clients/client-health-safety-event-compressed.png" class="lazyload" alt="The Health & Safety Event">
+						<img src="assets/img/clients/client-health-safety-event-compressed.png" alt="The Health & Safety Event">
 					</div>
 					<div class="w-1/2 md:w-1/3 lg:w-1/5">
-						<img src="assets/img/clients/client-security-event-compressed.png" data-src="assets/img/clients/client-security-event-compressed.png" class="lazyload" alt="The Security Event">
+						<img src="assets/img/clients/client-security-event-compressed.png" alt="The Security Event">
 					</div>                    
 					<div class="w-1/2 md:w-1/3 lg:w-1/5">
-						<img src="assets/img/clients/client-international-security-expo-compressed.png" data-src="assets/img/clients/client-international-security-expo-compressed.png" class="lazyload" alt="International Security Expo">
+						<img src="assets/img/clients/client-international-security-expo-compressed.png" alt="International Security Expo">
 					</div>                    
 				</div>
 

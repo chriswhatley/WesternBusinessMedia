@@ -6,7 +6,7 @@
 
             <div class="flex items-start mt-8">
                 <div class="inline-block w-4 h-4 mr-3 pt-1 md:pt-2">
-                   <img src="assets/img/layout/home-icon.svg" data-src="assets/img/layout/home-icon.svg" class="lazyload" alt="Home icon" />
+                   <img src="assets/img/layout/home-icon.svg" alt="Home icon" />
                 </div>
                 <div>
                     Dorset House, 64 High Street,<br />
@@ -17,7 +17,7 @@
             
             <div class="flex w-1/2 items-start mt-6">
                 <div class="inline-block w-4 h-4 mr-3 pt-1 md:pt-2">
-                   <img src="assets/img/layout/phone-icon.svg" data-src="assets/img/layout/phone-icon.svg" class="lazyload" alt="Phone icon" />
+                   <img src="assets/img/layout/phone-icon.svg" alt="Phone icon" />
                 </div>
                 <div>
                     <a class="hover:text-red-600 transition duration-300 ease-in-out" href="tel:+441342314300">01342 314 300</a>
@@ -26,7 +26,7 @@
 
             <div class="flex items-start">
                 <div class="inline-block w-4 h-4 mr-3 pt-2 md:pt-3">
-                   <img src="assets/img/layout/email-icon.svg" data-src="assets/img/layout/email-icon.svg" class="lazyload" alt="Email icon" />
+                   <img src="assets/img/layout/email-icon.svg" alt="Email icon" />
                 </div>
                 <div>
                     <a href="mailto:admin@westernbusiness.media" class="hover:text-red-600 transition duration-300 ease-in-out">admin@westernbusiness.media</a>
@@ -35,7 +35,7 @@
 
             <div class="flex items-start mt-6">
                 <div class="inline-block w-4 h-4 mr-3 pt-1 md:pt-2">
-                   <img src="assets/img/layout/clock-icon.svg" data-src="assets/img/layout/clock-icon.svg" class="lazyload" alt="Clock icon" />
+                   <img src="assets/img/layout/clock-icon.svg" alt="Clock icon" />
                 </div>
                 <div>
                     Office Hours<br />
@@ -181,7 +181,7 @@
 
                 <div class="flex items-start">
                     <div class="inline-block w-4 h-4 mr-3 pt-1">
-                       <img src="assets/img/layout/phone-icon.svg" data-src="assets/img/layout/phone-icon.svg" class="lazyload" alt="Phone icon" />
+                       <img src="assets/img/layout/phone-icon.svg" alt="Phone icon" />
                     </div>
                     <div>
                         <a class="hover:text-red-600 transition duration-300 ease-in-out" href="tel:+441342333722">01342 333 722</a>  <span class="inline-block mx-2">|</span>  <a class="hover:text-red-600 transition duration-300 ease-in-out" href="tel:+447751678621">07751 678 621</a>
@@ -190,7 +190,7 @@
 
                 <div class="flex items-start">
                     <div class="inline-block w-4 h-4 mr-3 pt-2">
-                       <img src="assets/img/layout/email-icon.svg" data-src="assets/img/layout/email-icon.svg" class="lazyload" alt="Email icon" />
+                       <img src="assets/img/layout/email-icon.svg" alt="Email icon" />
                     </div>
                     <div>
                         <a href="mailto:msennett@westernbusiness.media" class="hover:text-red-600 transition duration-300 ease-in-out">msennett@westernbusiness.media</a>
@@ -205,7 +205,7 @@
 
                 <div class="flex items-start">
                     <div class="inline-block w-4 h-4 mr-3 pt-1">
-                       <img src="assets/img/layout/phone-icon.svg" data-src="assets/img/layout/phone-icon.svg" class="lazyload" alt="Phone icon" />
+                       <img src="assets/img/layout/phone-icon.svg" alt="Phone icon" />
                     </div>
                     <div>
                         <a class="hover:text-red-600 transition duration-300 ease-in-out" href="tel:+441342333742">01342 333 742</a>  <span class="inline-block mx-2">|</span>  <a class="hover:text-red-600 transition duration-300 ease-in-out" href="tel:+447818574311">07818 574 311</a>
@@ -214,7 +214,7 @@
 
                 <div class="flex items-start">
                     <div class="inline-block w-4 h-4 mr-3 pt-2">
-                       <img src="assets/img/layout/email-icon.svg" data-src="assets/img/layout/email-icon.svg" class="lazyload" alt="Email icon" />
+                       <img src="assets/img/layout/email-icon.svg" alt="Email icon" />
                     </div>
                     <div>
                         <a href="mailto:kgabriel@westernbusiness.media" class="hover:text-red-600 transition duration-300 ease-in-out">kgabriel@westernbusiness.media</a>
@@ -229,7 +229,7 @@
 
                 <div class="flex items-start">
                     <div class="inline-block w-4 h-4 mr-3 pt-1">
-                       <img src="assets/img/layout/phone-icon.svg" data-src="assets/img/layout/phone-icon.svg" class="lazyload" alt="Phone icon" />
+                       <img src="assets/img/layout/phone-icon.svg" alt="Phone icon" />
                     </div>
                     <div>
                         <a class="hover:text-red-600 transition duration-300 ease-in-out" href="tel:+44 1342333715">01342 333 715</a>
@@ -238,7 +238,7 @@
 
                 <div class="flex items-start">
                     <div class="inline-block w-4 h-4 mr-3 pt-2">
-                       <img src="assets/img/layout/email-icon.svg" data-src="assets/img/layout/email-icon.svg" class="lazyload" alt="Email icon" />
+                       <img src="assets/img/layout/email-icon.svg" alt="Email icon" />
                     </div>
                     <div>
                         <a href="mailto:danny@westernbusiness.media" class="hover:text-red-600 transition duration-300 ease-in-out">danny@westernbusiness.media</a>
@@ -259,7 +259,6 @@
             </div>
         </div>                              
     </div>                    
-</footer>
+</footer>    
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="assets/js/lazysizes.min.js"></script>        
