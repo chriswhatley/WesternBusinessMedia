@@ -2,5 +2,5 @@
 
 return [
     'production' => true,
-    'baseUrl' => '',
+    'baseUrl' => 'https://western-business-media.netlify.app',
 ];
