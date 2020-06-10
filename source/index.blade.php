@@ -47,7 +47,7 @@
 						<div class="flex justify-end pt-4 pb-8 pr-8">
 							<a href="https://www.ipesearch.co.uk" target="_blank" rel="noopener" class="font-bold py-3 px-4 uppercase">
 								Find out more                                
-								<img class="ml-2" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" class="lazyload" />
+								<img class="ml-2 lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                          
 					</div>
@@ -69,7 +69,7 @@
 						<div class="flex justify-end pt-4 pb-8 pr-8">
 							<a href="https://www.hsmsearch.com" target="_blank" rel="noopener" class="text-white font-bold py-3 px-4 uppercase">
 								Find out more                                
-								<img class="ml-2 text-xl" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" class="lazyload" />
+								<img class="ml-2 text-xl lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                                                  
 					</div>
@@ -91,7 +91,7 @@
 						<div class="flex justify-end pt-4 pb-6 pr-6">
 							<a href="https://www.hsssearch.co.uk" target="_blank" rel="noopener" class="font-bold py-3 px-4 uppercase">
 								Find out more                                
-								<img class="ml-2" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" class="lazyload" />
+								<img class="ml-2 lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                          
 					</div>
@@ -113,7 +113,7 @@
 						<div class="flex justify-end pt-4 pb-6 pr-6">
 							<a href="https://www.cleaning-matters.co.uk" target="_blank" rel="noopener" class="font-bold py-3 px-4 uppercase">
 								Find out more                                
-								<img class="ml-2" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" class="lazyload" />
+								<img class="ml-2 lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                          
 					</div>
@@ -136,7 +136,7 @@
 						<div class="flex justify-end pt-4 pb-8 pr-8">
 							<a href="https://www.controlsdrivesautomation.com" target="_blank" rel="noopener" class="font-bold py-3 px-4 uppercase">
 								Find out more                                
-								<img class="ml-2" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" class="lazyload" />
+								<img class="ml-2 lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                          
 					</div>
@@ -158,7 +158,7 @@
 						<div class="flex justify-end pt-4 pb-8 pr-8">
 							<a href="https://www.fsmatters.com" target="_blank" rel="noopener" class="text-white font-bold py-3 px-4 uppercase">
 								Find out more                                
-								<img class="ml-2 text-xl" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" class="lazyload" />
+								<img class="ml-2 text-xl lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                          
 					</div>
@@ -180,7 +180,7 @@
 						<div class="flex justify-end pt-4 pb-8 pr-8">
 							<a href="https://www.fsmatters.com/security-matters" target="_blank" rel="noopener" class="font-bold py-3 px-4 uppercase">
 								Find out more                                
-								<img class="ml-2" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" class="lazyload" />
+								<img class="ml-2 lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                          
 					</div>
@@ -202,7 +202,7 @@
 						<div class="flex justify-end pt-4 pb-8 pr-8">
 							<a href="https://www.cleaning-matters.co.uk/facilities-matters" rel="noopener" target="_blank" class="py-3 px-4 font-bold uppercase">
 								Find out more                                
-								<img class="ml-2" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" class="lazyload" />
+								<img class="ml-2 lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                          
 					</div>
@@ -224,7 +224,7 @@
 						<div class="flex justify-end pt-4 pb-8 pr-8">
 							<a href="https://www.ipesearch.co.uk/mmi" target="_blank" rel="noopener" class="py-3 px-4 font-bold uppercase">
 								Find out more                                
-								<img class="ml-2" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" class="lazyload" />
+								<img class="ml-2 lazyload" src="assets/img/layout/pointer-icon.svg" data-src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
 							</a>
 						</div>                                                                          
 					</div>                                      

@@ -4,8 +4,7 @@
 
 <link rel="preload" href="assets/img/layout/wbm-hero-small-people-compressed.jpg" as="image">
 <link rel="preload" href="assets/img/layout/wbm-hero-people-compressed.jpg" as="image">
-<link rel="preload" href="assets/css/main.css" as="style">                
-
+          
 <meta name="format-detection" content="telephone=no">
 <meta http-equiv="x-rim-auto-match" content="none">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -28,8 +27,6 @@
 <meta property="og:description" content="Delivering business insight, comment and the latest news on product innovation, services and legislation through print, digital and event platforms." />
 <meta property="og:image" content="{{ $page->baseUrl }}/assets/img/layout/twitter-large-card.png" />        
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700&display=swap" rel="stylesheet" /> 
-<link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-<link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
 <link rel="stylesheet" href="{{ mix('css/main.css') }}">
 <style>
     .hero-text h1 {
