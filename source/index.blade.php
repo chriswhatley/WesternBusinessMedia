@@ -238,7 +238,7 @@
 			<div class="flex flex-wrap">
 
 				<div class="flex justify-center items-center w-full lg:w-1/2 bg-no-repeat bg-top">                
-					<img class="p-12 lazyload" src="assets/img/journals/she-logo-compressed.png" data-src="assets/img/journals/she-logo-compressed.png" alt="Health & Safety Matters">                                                                                                    
+					<img class="p-12" src="assets/img/journals/she-logo-compressed.png" alt="The Safety & Health Excellence Awards">                                                                                                    
 				</div>
 
 				<div class="w-full lg:w-1/2">
