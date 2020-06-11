@@ -2,11 +2,11 @@
 <footer class="bg-gray-900 text-white leading-relaxed sm:text-lg md:text-xl lg:text-lg">
     <div class="container mx-auto flex flex-wrap bg-no-repeat bg-right-bottom bg-auto">
         <div class="md:w-1/2 lg:w-1/3 max-w-sm px-6 pt-12">                
-            <img src="assets/img/layout/wbm-logo-compressed.png" alt="Western Business Media Limited">
+            <img src="{{ $page->getUrl }}/assets/img/layout/wbm-logo-compressed.png" alt="Western Business Media Limited">
 
             <div class="flex items-start mt-8">
                 <div class="inline-block w-4 h-4 mr-3 pt-1 md:pt-2">
-                   <img src="assets/img/layout/home-icon.svg" alt="Home icon" />
+                   <img src="{{ $page->getUrl }}/assets/img/layout/home-icon.svg" alt="Home icon" />
                 </div>
                 <div>
                     Dorset House, 64 High Street,<br />
@@ -16,17 +16,17 @@
             </div>
             
             <div class="flex w-1/2 items-start mt-6">
-                <div class="inline-block w-4 h-4 mr-3 pt-1 md:pt-2">
-                   <img src="assets/img/layout/phone-icon.svg" alt="Phone icon" />
+                <div class="inline-block w-4 h-4 mr-3 pt-5">
+                   <img src="{{ $page->getUrl }}/assets/img/layout/phone-icon.svg" alt="Phone icon" />
                 </div>
                 <div>
-                    <a class="hover:text-red-600 transition duration-300 ease-in-out" href="tel:+441342314300">01342 314 300</a>
+                    <a class="inline-block py-3 hover:text-red-600 transition duration-300 ease-in-out" href="tel:+441342314300">01342 314 300</a>
                 </div>
             </div>
 
             <div class="flex items-start">
-                <div class="inline-block w-4 h-4 mr-3 pt-2 md:pt-3">
-                   <img src="assets/img/layout/email-icon.svg" alt="Email icon" />
+                <div class="inline-block w-4 h-4 mr-3 pt-2 md:pt-2">
+                   <img src="{{ $page->getUrl }}/assets/img/layout/email-icon.svg" alt="Email icon" />
                 </div>
                 <div>
                     <a href="mailto:admin@westernbusiness.media" class="hover:text-red-600 transition duration-300 ease-in-out">admin@westernbusiness.media</a>
@@ -35,7 +35,7 @@
 
             <div class="flex items-start mt-6">
                 <div class="inline-block w-4 h-4 mr-3 pt-1 md:pt-2">
-                   <img src="assets/img/layout/clock-icon.svg" alt="Clock icon" />
+                   <img src="{{ $page->getUrl }}/assets/img/layout/clock-icon.svg" alt="Clock icon" />
                 </div>
                 <div>
                     Office Hours<br />
@@ -48,7 +48,7 @@
                 
                 <div class="inline-block pt-1 mr-4">
                     <a href="https://www.linkedin.com/company/western-business-exhibitions" target="_blank" rel="noopener">
-                        <img class="w-1/3 ml-1" src="assets/img/layout/linkedin-logo-compressed.png" alt="Follow us on LinkedIn">                                
+                        <img class="w-1/3 ml-1" src="{{ $page->getUrl }}/assets/img/layout/linkedin-logo-compressed.png" alt="Follow us on LinkedIn">                                
                     </a>
                 </div>
                                 
@@ -179,21 +179,21 @@
                     <span class="font-bold">Mark Sennett</span> <span class="invisible sm:visible">-</span> <span class="block sm:inline-block">Chief Executive Officer</span>
                 </div>                                           
 
-                <div class="flex items-start">
-                    <div class="inline-block w-4 h-4 mr-3 pt-1">
-                       <img src="assets/img/layout/phone-icon.svg" alt="Phone icon" />
+                <div class="flex items-start">                    
+                    <div class="inline-block w-4 h-4 mr-3 pt-5">
+                       <img src="{{ $page->getUrl }}/assets/img/layout/phone-icon.svg" alt="Phone icon" />
                     </div>
                     <div>
-                        <a class="hover:text-red-600 transition duration-300 ease-in-out" href="tel:+441342333722">01342 333 722</a>  <span class="inline-block mx-2">|</span>  <a class="hover:text-red-600 transition duration-300 ease-in-out" href="tel:+447751678621">07751 678 621</a>
+                        <a class="inline-block py-3 hover:text-red-600 transition duration-300 ease-in-out" href="tel:+441342333722">01342 333 722</a>  <span class="inline-block mx-2">|</span>  <a class="inline-block py-3 hover:text-red-600 transition duration-300 ease-in-out" href="tel:+447751678621">07751 678 621</a>
                     </div>
                 </div>
 
                 <div class="flex items-start">
-                    <div class="inline-block w-4 h-4 mr-3 pt-2">
-                       <img src="assets/img/layout/email-icon.svg" alt="Email icon" />
+                    <div class="inline-block w-4 h-4 mr-3 pt-4">
+                       <img src="{{ $page->getUrl }}/assets/img/layout/email-icon.svg" alt="Email icon" />
                     </div>
                     <div>
-                        <a href="mailto:msennett@westernbusiness.media" class="hover:text-red-600 transition duration-300 ease-in-out">msennett@westernbusiness.media</a>
+                        <a href="mailto:msennett@westernbusiness.media" class="inline-block py-2 hover:text-red-600 transition duration-300 ease-in-out">msennett@westernbusiness.media</a>
                     </div>
                 </div>
             </div>
@@ -204,20 +204,20 @@
                 </div>                                           
 
                 <div class="flex items-start">
-                    <div class="inline-block w-4 h-4 mr-3 pt-1">
-                       <img src="assets/img/layout/phone-icon.svg" alt="Phone icon" />
+                    <div class="inline-block w-4 h-4 mr-3 pt-5">
+                       <img src="{{ $page->getUrl }}/assets/img/layout/phone-icon.svg" alt="Phone icon" />
                     </div>
                     <div>
-                        <a class="hover:text-red-600 transition duration-300 ease-in-out" href="tel:+441342333742">01342 333 742</a>  <span class="inline-block mx-2">|</span>  <a class="hover:text-red-600 transition duration-300 ease-in-out" href="tel:+447818574311">07818 574 311</a>
+                        <a class="inline-block py-3 hover:text-red-600 transition duration-300 ease-in-out" href="tel:+441342333742">01342 333 742</a>  <span class="inline-block mx-2">|</span>  <a class="inline-block py-3 hover:text-red-600 transition duration-300 ease-in-out" href="tel:+447818574311">07818 574 311</a>
                     </div>
                 </div>
 
                 <div class="flex items-start">
                     <div class="inline-block w-4 h-4 mr-3 pt-2">
-                       <img src="assets/img/layout/email-icon.svg" alt="Email icon" />
+                       <img src="{{ $page->getUrl }}/assets/img/layout/email-icon.svg" alt="Email icon" />
                     </div>
                     <div>
-                        <a href="mailto:kgabriel@westernbusiness.media" class="hover:text-red-600 transition duration-300 ease-in-out">kgabriel@westernbusiness.media</a>
+                        <a href="mailto:kgabriel@westernbusiness.media" class="py-2 hover:text-red-600 transition duration-300 ease-in-out">kgabriel@westernbusiness.media</a>
                     </div>
                 </div>
             </div>
@@ -228,17 +228,17 @@
                 </div>                                           
 
                 <div class="flex items-start">
-                    <div class="inline-block w-4 h-4 mr-3 pt-1">
-                       <img src="assets/img/layout/phone-icon.svg" alt="Phone icon" />
+                    <div class="inline-block w-4 h-4 mr-3 pt-5">
+                       <img src="{{ $page->getUrl }}/assets/img/layout/phone-icon.svg" alt="Phone icon" />
                     </div>
                     <div>
-                        <a class="hover:text-red-600 transition duration-300 ease-in-out" href="tel:+44 1342333715">01342 333 715</a>
+                        <a class="inline-block py-3 hover:text-red-600 transition duration-300 ease-in-out" href="tel:+44 1342333715">01342 333 715</a>
                     </div>
                 </div>
 
                 <div class="flex items-start">
                     <div class="inline-block w-4 h-4 mr-3 pt-2">
-                       <img src="assets/img/layout/email-icon.svg" alt="Email icon" />
+                       <img src="{{ $page->getUrl }}/assets/img/layout/email-icon.svg" alt="Email icon" />
                     </div>
                     <div>
                         <a href="mailto:danny@westernbusiness.media" class="hover:text-red-600 transition duration-300 ease-in-out">danny@westernbusiness.media</a>
@@ -254,7 +254,7 @@
                     Western Business Media Limited <span class="block sm:inline-block">2020 All Rights Reserved</span>
                 </div>                    
                 <div class="lg:text-right">
-                    <a href="terms.html" class="hover:text-red-600 transition duration-300 ease-in-out">Terms &amp; Conditions</a>  <span class="inline-block mx-2">|</span>  <a href="privacy.html" class="hover:text-red-600 transition duration-300 ease-in-out">Privacy &amp; Cookie Policy</a>
+                    <a href="{{ $page->getUrl }}/terms" class="hover:text-red-600 transition duration-300 ease-in-out">Terms &amp; Conditions</a>  <span class="inline-block mx-2">|</span>  <a href="{{ $page->getUrl }}/privacy" class="hover:text-red-600 transition duration-300 ease-in-out">Privacy &amp; Cookie Policy</a>
                 </div>                        
             </div>
         </div>                              
