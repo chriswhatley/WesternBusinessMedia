@@ -1,8 +1,12 @@
 <!-- Footer -->
-<footer class="bg-gray-900 text-white leading-relaxed sm:text-lg md:text-xl lg:text-lg">
-    <div class="container mx-auto flex flex-wrap bg-no-repeat bg-right-bottom bg-auto">
-        <div class="md:w-1/2 lg:w-1/3 max-w-sm px-6 pt-12">                
-            <img src="{{ $page->getUrl }}/assets/img/layout/wbm-logo-compressed.png" alt="Western Business Media Limited">
+<footer class="bg-gray-900 text-white leading-relaxed">
+    <div class="container mx-auto flex flex-wrap bg-no-repeat bg-left-bottom bg-auto">
+        <div class="md:w-1/2 lg:w-1/3 max-w-sm px-6 pt-12">   
+            <picture>
+                <source srcset="{{ $page->baseUrl }}/assets/img/layout/wbm-logo-compressed.webp" type="image/webp">
+                <source srcset="{{ $page->baseUrl }}/assets/img/layout/wbm-logo-compressed.png" type="image/png"> 
+                <img src="{{ $page->baseUrl }}/assets/img/layout/wbm-logo-compressed.png" alt="Western Business Media Limited" class="w-56 sm:w-64">
+            </picture>
 
             <div class="flex items-start mt-8">
                 <div class="inline-block w-4 h-4 mr-3 pt-1 md:pt-2">
@@ -29,7 +33,7 @@
                    <img src="{{ $page->getUrl }}/assets/img/layout/email-icon.svg" alt="Email icon" />
                 </div>
                 <div>
-                    <a href="mailto:admin@westernbusiness.media" class="hover:text-red-600 transition duration-300 ease-in-out">admin@westernbusiness.media</a>
+                    <a href="mailto:admin@westernbusiness.media" class="text-sm md:text-base hover:text-red-600 transition duration-300 ease-in-out">admin@westernbusiness.media</a>
                 </div>
             </div>
 
@@ -193,7 +197,7 @@
                        <img src="{{ $page->getUrl }}/assets/img/layout/email-icon.svg" alt="Email icon" />
                     </div>
                     <div>
-                        <a href="mailto:msennett@westernbusiness.media" class="inline-block py-2 hover:text-red-600 transition duration-300 ease-in-out">msennett@westernbusiness.media</a>
+                        <a href="mailto:msennett@westernbusiness.media" class="text-sm sm:text-base inline-block py-2 hover:text-red-600 transition duration-300 ease-in-out">msennett@westernbusiness.media</a>
                     </div>
                 </div>
             </div>
@@ -217,7 +221,7 @@
                        <img src="{{ $page->getUrl }}/assets/img/layout/email-icon.svg" alt="Email icon" />
                     </div>
                     <div>
-                        <a href="mailto:kgabriel@westernbusiness.media" class="py-2 hover:text-red-600 transition duration-300 ease-in-out">kgabriel@westernbusiness.media</a>
+                        <a href="mailto:kgabriel@westernbusiness.media" class="text-sm sm:text-base py-2 hover:text-red-600 transition duration-300 ease-in-out">kgabriel@westernbusiness.media</a>
                     </div>
                 </div>
             </div>
@@ -241,7 +245,7 @@
                        <img src="{{ $page->getUrl }}/assets/img/layout/email-icon.svg" alt="Email icon" />
                     </div>
                     <div>
-                        <a href="mailto:danny@westernbusiness.media" class="hover:text-red-600 transition duration-300 ease-in-out">danny@westernbusiness.media</a>
+                        <a href="mailto:danny@westernbusiness.media" class="text-sm sm:text-base hover:text-red-600 transition duration-300 ease-in-out">danny@westernbusiness.media</a>
                     </div>
                 </div>
             </div>                   
@@ -259,6 +263,6 @@
             </div>
         </div>                              
     </div>                    
-</footer>    
+</footer>
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="{{ mix('js/main.js') }}"></script>

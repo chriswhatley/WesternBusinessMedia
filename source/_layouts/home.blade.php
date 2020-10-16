@@ -3,21 +3,31 @@
     <head>        
         @include('_partials/meta')    
 
-        <link rel="preload" href="assets/img/layout/wbm-hero-small-people-compressed.jpg" as="image">
-        <link rel="preload" href="assets/img/layout/wbm-hero-people-compressed.jpg" as="image">
+    <link rel="preload" href="{{ $page->baseUr }}/assets/img/layout/wbm-hero-small-people-compressed.webp" as="image">
+        <link rel="preload" href="{{ $page->baseUr }}/assets/img/layout/wbm-hero-small-people-compressed.jpg" as="image">
+        <link rel="preload" href="{{ $page->baseUr }}/assets/img/layout/wbm-hero-people-compressed.webp" as="image">
+        <link rel="preload" href="{{ $page->baseUr }}/assets/img/layout/wbm-hero-people-compressed.jpg" as="image">
 
         <style>            
             /* Small (sm) */
             @media (max-width: 639px) { 
-                .hero {
-                    background-image: url(assets/img/layout/wbm-hero-small-people-compressed.jpg);
+                .webp .hero {
+                    background-image: url({{ $page->baseUr }}/assets/img/layout/wbm-hero-small-people-compressed.webp);
+                }
+
+                .no-webp .hero {
+                    background-image: url({{ $page->baseUr }}/assets/img/layout/wbm-hero-small-people-compressed.jpg);
                 }
             }
 
             /* Medium (md) */
             @media (min-width: 640px) { 
-                .hero {
-                    background-image: url(assets/img/layout/wbm-hero-people-compressed.jpg);
+                .webp .hero {
+                    background-image: url({{ $page->baseUr }}/assets/img/layout/wbm-hero-people-compressed.webp);
+                }
+
+                .no-webp .hero {
+                    background-image: url({{ $page->baseUr }}/assets/img/layout/wbm-hero-people-compressed.jpg);
                 }
             }
         </style> 
@@ -63,44 +73,6 @@
         @yield('content')
                 
         @include('_partials/footer')
-
-        <script src="assets/js/owl.carousel.min.js"></script>        
-        <script type="text/javascript">
-            $(document).ready(function(){                
-
-                $(".journal-carousel").owlCarousel({                    
-                    loop: true,
-                    autoplay: true,                
-                    autoplaySpeed: 2000,    
-                    autoplayHoverPause: true,
-                    margin: 10,
-                    responsiveClass: true,
-                    responsive: {
-                        0:{
-                            items:1,
-                            nav:false
-                        },
-                        640:{
-                            items:1,
-                            nav:false
-                        },
-                        768:{
-                            items:1,
-                            nav:false
-                        },
-                        1024:{
-                            items:3,
-                            nav:false                            
-                        },
-                        1280:{
-                            items:3,
-                            nav:false                            
-                        }
-                    }                                             
-                });
-            });
-        </script>
-
     </body>
 </html>
 

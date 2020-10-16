@@ -2,6 +2,12 @@
 
 @import "tailwindcss/components";
 
+@import "swiper";
+@import "swiper-pagination";
+@import "swiper-navigation";
+
 @import "custom";
+@import "mouse-scroll-icon";
+/*@import "debugging";*/
 
 @import "tailwindcss/utilities";

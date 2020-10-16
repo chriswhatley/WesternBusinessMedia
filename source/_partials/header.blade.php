@@ -29,7 +29,7 @@
 
         <div class="py-6 px-6 max-w-xs md:max-w-lg">                
             <a href="/">
-                <img class="" src="{{ $page->baseUrl }}/assets/img/layout/wbm-logo-compressed.png" alt="Western Business Media Limited">
+                <img src="{{ $page->baseUrl }}/assets/img/layout/wbm-logo.svg" alt="Western Business Media Limited" class="w-118">
             </a>
         </div>
 
