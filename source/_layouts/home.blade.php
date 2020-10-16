@@ -3,31 +3,31 @@
     <head>        
         @include('_partials/meta')    
 
-    <link rel="preload" href="{{ $page->baseUr }}/assets/img/layout/wbm-hero-small-people-compressed.webp" as="image">
-        <link rel="preload" href="{{ $page->baseUr }}/assets/img/layout/wbm-hero-small-people-compressed.jpg" as="image">
-        <link rel="preload" href="{{ $page->baseUr }}/assets/img/layout/wbm-hero-people-compressed.webp" as="image">
-        <link rel="preload" href="{{ $page->baseUr }}/assets/img/layout/wbm-hero-people-compressed.jpg" as="image">
+    <link rel="preload" href="assets/img/layout/wbm-hero-small-people-compressed.webp" as="image">
+        <link rel="preload" href="assets/img/layout/wbm-hero-small-people-compressed.jpg" as="image">
+        <link rel="preload" href="assets/img/layout/wbm-hero-people-compressed.webp" as="image">
+        <link rel="preload" href="assets/img/layout/wbm-hero-people-compressed.jpg" as="image">
 
         <style>            
             /* Small (sm) */
             @media (max-width: 639px) { 
                 .webp .hero {
-                    background-image: url({{ $page->baseUr }}/assets/img/layout/wbm-hero-small-people-compressed.webp);
+                    background-image: url(assets/img/layout/wbm-hero-small-people-compressed.webp);
                 }
 
                 .no-webp .hero {
-                    background-image: url({{ $page->baseUr }}/assets/img/layout/wbm-hero-small-people-compressed.jpg);
+                    background-image: url(assets/img/layout/wbm-hero-small-people-compressed.jpg);
                 }
             }
 
             /* Medium (md) */
             @media (min-width: 640px) { 
                 .webp .hero {
-                    background-image: url({{ $page->baseUr }}/assets/img/layout/wbm-hero-people-compressed.webp);
+                    background-image: url(assets/img/layout/wbm-hero-people-compressed.webp);
                 }
 
                 .no-webp .hero {
-                    background-image: url({{ $page->baseUr }}/assets/img/layout/wbm-hero-people-compressed.jpg);
+                    background-image: url(assets/img/layout/wbm-hero-people-compressed.jpg);
                 }
             }
         </style> 

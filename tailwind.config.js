@@ -68,6 +68,10 @@ module.exports = {
 		'90': '.9',
 		'100': '1',
 	},
+    cursor: {
+        grab: 'grab',
+        pointer: 'pointer',
+    },
   },
   variants: {},
   plugins: [],

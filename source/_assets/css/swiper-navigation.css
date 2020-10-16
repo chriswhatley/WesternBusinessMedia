@@ -1,17 +1,6 @@
+/*! purgecss start ignore */
 .swiper-button-prev,
 .swiper-button-next {
-  /*position: absolute;
-  top: 50%;
-  width: calc(var(--swiper-navigation-size) / 44 * 27);
-  height: var(--swiper-navigation-size);
-  margin-top: calc(-1 * var(--swiper-navigation-size) / 2);
-  z-index: 10;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--swiper-navigation-color, var(--swiper-theme-color)); */
-
   top: 32%;
   @apply absolute w-18 h-18 rounded-full z-20 cursor-pointer flex items-center justify-center bg-gray-200 text-gray-800
 
@@ -53,22 +42,4 @@
   left: auto;
   @apply pr-4
 }
-/*
-.swiper-button-next:after,
-.swiper-container-rtl .swiper-button-prev:after {
-  content: "next";
-}
-
-.swiper-button-prev.swiper-button-white,
-.swiper-button-next.swiper-button-white {
-  --swiper-navigation-color: #ffffff;
-}
-
-.swiper-button-prev.swiper-button-black,
-.swiper-button-next.swiper-button-black {
-  --swiper-navigation-color: #000000;
-}
-
-.swiper-button-lock {
-  display: none;
-}*/
+/*! purgecss end ignore */

@@ -288,7 +288,7 @@
                     <h2 class="pb-4 text-2xl font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight heading">What our clients have to say</h2>
                 </div>          
                     
-                <div class="swiper-container swiper-testimonials w-full h-88 sm:h-56 md:h-64 lg:h-56 xl:h-48 mt-6 z-20">
+                <div class="swiper-container swiper-testimonials w-full h-88 sm:h-56 md:h-64 lg:h-56 xl:h-48 mt-6 z-20 cursor-grab">
                     <div class="swiper-wrapper">
                         @foreach($testimonials as $testimonial)
                             <div class="swiper-slide">
