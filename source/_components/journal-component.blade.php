@@ -4,7 +4,7 @@
         <div class="w-full h-56 md:h-auto lg:w-1/2 header bg-cover bg-center flex justify-center items-center">        
             <picture>
                 <source srcset="{{ $page->baseUrl }}/assets/img/journals/{{ $journal->class_name }}-logo-compressed.webp" type="image/webp">
-                <source srcset="{{ $page->baseUrl }}assets/img/journals/{{ $journal->class_name }}-logo-compressed.png" type="image/png"> 
+                <source srcset="{{ $page->baseUrl }}/assets/img/journals/{{ $journal->class_name }}-logo-compressed.png" type="image/png"> 
                 <img src="{{ $page->baseUrl }}/assets/img/journals/{{ $journal->class_name }}-logo-compressed.png" alt="Western Business Media Limited" class="my-12">
             </picture>            
         </div>
