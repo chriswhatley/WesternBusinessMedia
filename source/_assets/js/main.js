@@ -1,3 +1,14 @@
+// mouse icon onClick scrolls to anchored section 
+$(document).ready(function($){	
+	$('a.scroll-link').click(function(e){
+		e.preventDefault();
+		var id = $(this).attr('href');
+		$('body,html').animate({
+			scrollTop: $(id).offset().top
+		}, 750);
+	});	
+});
+
 // core version + navigation, pagination modules:
 import Swiper, { Navigation, Pagination } from 'swiper';
 

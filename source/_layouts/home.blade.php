@@ -3,12 +3,16 @@
     <head>        
         @include('_partials/meta')    
 
-    <link rel="preload" href="assets/img/layout/wbm-hero-small-people-compressed.webp" as="image">
+        <link rel="preload" href="assets/img/layout/wbm-hero-small-people-compressed.webp" as="image">
         <link rel="preload" href="assets/img/layout/wbm-hero-small-people-compressed.jpg" as="image">
         <link rel="preload" href="assets/img/layout/wbm-hero-people-compressed.webp" as="image">
         <link rel="preload" href="assets/img/layout/wbm-hero-people-compressed.jpg" as="image">
+      
+        <style>  
+            .hero-text h1 {
+                text-shadow: 1px 1px 2px rgba(9, 0, 0, 0.75);
+            }  
 
-        <style>            
             /* Small (sm) */
             @media (max-width: 639px) { 
                 .webp .hero {
@@ -45,16 +49,19 @@
             </div>
 
             <div class="absolute bottom-0 flex justify center pb-3">                
-                <div class="mouse_scroll">
-                    <div class="mouse">
-                        <div class="wheel"></div>
+                <a class="scroll-link" href="#about-wbm">
+                    <div class="mouse_scroll">
+                        <div class="mouse">
+                            <div class="wheel"></div>
+                        </div>
+                        <div>
+                            <span class="m_scroll_arrows one"></span>
+                            <span class="m_scroll_arrows two"></span>
+                            <span class="m_scroll_arrows three"></span>
+                        </div>
                     </div>
-                    <div>
-                        <span class="m_scroll_arrows one"></span>
-                        <span class="m_scroll_arrows two"></span>
-                        <span class="m_scroll_arrows three"></span>
-                    </div>
-                </div>                                
+                </a>
+                                                
             </div>
 
 

@@ -24,8 +24,3 @@
 <meta property="og:image" content="{{ $page->baseUrl }}/assets/img/layout/twitter-large-card.png" />        
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700&display=swap" rel="stylesheet" /> 
 <link rel="stylesheet" href="{{ $page->baseUrl }}{{ mix('css/main.css') }}">
-<style>
-    .hero-text h1 {
-        text-shadow: 1px 1px 2px rgba(9, 0, 0, 0.75);
-    }  
-</style> 

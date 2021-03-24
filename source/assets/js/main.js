@@ -11767,7 +11767,17 @@ _esm_components_core_core_class__WEBPACK_IMPORTED_MODULE_0__["default"].use(comp
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.esm.js");
-// core version + navigation, pagination modules:
+// mouse icon onClick scrolls to anchored section 
+$(document).ready(function ($) {
+  $('a.scroll-link').click(function (e) {
+    e.preventDefault();
+    var id = $(this).attr('href');
+    $('body,html').animate({
+      scrollTop: $(id).offset().top
+    }, 750);
+  });
+}); // core version + navigation, pagination modules:
+
  // configure Swiper to use modules
 
 swiper__WEBPACK_IMPORTED_MODULE_0__["default"].use([swiper__WEBPACK_IMPORTED_MODULE_0__["Navigation"], swiper__WEBPACK_IMPORTED_MODULE_0__["Pagination"]]);

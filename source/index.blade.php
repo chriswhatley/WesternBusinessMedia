@@ -5,7 +5,7 @@
     <main class="main">
 
         <!-- About WBM -->
-        <section class="about-wbm relative bg-gray-800 bg-no-repeat bg-center lg:bg-left bg-contain">      
+        <section id="about-wbm" class="about-wbm relative bg-gray-800 bg-no-repeat bg-center lg:bg-left bg-contain">      
             <div class="container mx-auto">
                 <div class="px-6 py-12 w-full lg:w-1/2 lg:pr-12 leading-relaxed text-white">                                                                                          
                     <h2 class="pb-4 text-white text-2xl font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight heading">Who We Are</h2>                        
