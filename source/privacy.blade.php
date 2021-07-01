@@ -33,7 +33,7 @@
 
                 <h4 class="mt-4 pb-4 text-grey-900 text-base font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight heading">Cookies</h4>                                
                 <p class="mb-2">Cookies are text files places on your computer to collect standard internet log information and visitor behaviour information. This information is used to track visitor use of the website and to compile statistical reports on web activity.</p>
-                <p class="mb-2">For further information on cookies please visit <a href="https://www.allaboutcookies.org" target="_blank" rel="noopener" class="hover:text-red-600 transition duration-300 ease-in-out">www.allaboutcookies.org</a></p>
+                <p class="mb-2">For further information on cookies please visit <a href="https://www.allaboutcookies.org" target="_blank" rel="noopener" class="font-semibold hover:text-red-600 transition duration-300 ease-in-out">allaboutcookies.org</a></p>
                 <p class="mb-2">You can set your browser to not accept cookies and the above websites tell you how to remove cookies from your browser. However in a few cases some of our website features may not function as a result.</p>
 
                 <h4 class="mt-4 pb-4 text-grey-900 text-base font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight heading">Other websites</h4>                                                
@@ -45,7 +45,7 @@
 
                 <h4 class="mt-4 pb-4 text-grey-900 text-base font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight heading">How to contact us</h4>                                                
                 <p class="mb-2">Please contact us if you have any questions about our privacy policy or information we hold about you:</p>
-                <p class="mb-2">For further information on cookies please visit <a href="www.allaboutcookies.org" target="_blank" rel="noopener" class="font-semibold hover:text-red-600 transition duration-300 ease-in-out">www.allaboutcookies.org</a></p>
+                <p class="mb-2">For further information on cookies please visit <a href="https://www.allaboutcookies.org" target="_blank" rel="noopener" class="font-semibold hover:text-red-600 transition duration-300 ease-in-out">www.allaboutcookies.org</a></p>
                 <p class="mb-2">By email: <a href="mailto:jmullender@western-bp.co.uk" target="_blank" class="font-semibold hover:text-red-600 transition duration-300 ease-in-out">jmullender@western-bp.co.uk</a></p>
                 <p class="mb-2">Or write to us at : Western Business Media Ltd, Data department, Dorset House, 64 High Street, East Grinstead, West Sussex, RH19 3DE</p>
             </div>   

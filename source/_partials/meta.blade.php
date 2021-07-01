@@ -15,12 +15,12 @@
 <meta name="twitter:site" content="Western Business Media">
 <meta name="twitter:title" content="Western Business Media - Excellence in business intelligence in print, online, in person">
 <meta name="twitter:description" content="Delivering business insight, comment and the latest news on product innovation, services and legislation through print, digital and event platforms.">
-<meta name="twitter:image" content="{{ $page->baseUrl }}/assets/img/layout/twitter-large-card.png">
+<meta name="twitter:image" content="{{ $page->baseUrl }}/assets/img/layout/twitter-card-large.png">
 <meta name="twitter:creator" content="Western Business Media">
 <meta property="og:url" content="https://westernbusiness.media" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Western Business Media - Excellence in business intelligence in print, online, in person" />
 <meta property="og:description" content="Delivering business insight, comment and the latest news on product innovation, services and legislation through print, digital and event platforms." />
-<meta property="og:image" content="{{ $page->baseUrl }}/assets/img/layout/twitter-large-card.png" />        
+<meta property="og:image" content="{{ $page->baseUrl }}/assets/img/layout/twitter-card-large.png" />        
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700&display=swap" rel="stylesheet" /> 
 <link rel="stylesheet" href="{{ $page->baseUrl }}{{ mix('css/main.css') }}">
