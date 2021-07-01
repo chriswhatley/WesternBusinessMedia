@@ -51,6 +51,7 @@
             <div class="absolute bottom-0 flex justify center pb-3">                
                 <a class="scroll-link" href="#about-wbm">
                     <div class="mouse_scroll">
+                        <div class="sr-only">Scroll down</div>
                         <div class="mouse">
                             <div class="wheel"></div>
                         </div>
