@@ -33,7 +33,7 @@
 
                 <h4 class="mt-4 pb-4 text-grey-900 text-base font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight heading">Cookies</h4>                                
                 <p class="mb-2">Cookies are text files places on your computer to collect standard internet log information and visitor behaviour information. This information is used to track visitor use of the website and to compile statistical reports on web activity.</p>
-                <p class="mb-2">For further information on cookies please visit <a href="www.allaboutcookies.org" target="_blank" rel="noopener" class="hover:text-red-600 transition duration-300 ease-in-out">www.allaboutcookies.org</a></p>
+                <p class="mb-2">For further information on cookies please visit <a href="https://www.allaboutcookies.org" target="_blank" rel="noopener" class="hover:text-red-600 transition duration-300 ease-in-out">www.allaboutcookies.org</a></p>
                 <p class="mb-2">You can set your browser to not accept cookies and the above websites tell you how to remove cookies from your browser. However in a few cases some of our website features may not function as a result.</p>
 
                 <h4 class="mt-4 pb-4 text-grey-900 text-base font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight heading">Other websites</h4>                                                
