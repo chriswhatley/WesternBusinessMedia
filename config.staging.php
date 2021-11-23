@@ -2,5 +2,5 @@
 
 return [
     'production' => false,  
-    'baseUrl' => 'http://archives.westernbusinesspublishing.co.uk/misc/build_staging',
+    'baseUrl' => 'https://western-business-media.netlify.app',
 ];

@@ -158,17 +158,6 @@
                     </svg>
                 </div>
                 <div class="inline-block mb-1 hover:text-red-600 transition duration-300 ease-in-out">
-                    <a href="https://www.ipesearch.co.uk/mmi" target="_blank" rel="noopener">Manufacturing Matters Ireland</a>
-                </div>                        
-            </div>
-
-            <div class="flex items-start">
-                <div class="inline-block w-4 h-4 mr-3 pt-1">
-                   <svg class="fill-current text-red-600 inline-block h-8 w-8" xmlns="http://www.w3.org/2000/svg">                                    
-                         <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
-                    </svg>
-                </div>
-                <div class="inline-block mb-1 hover:text-red-600 transition duration-300 ease-in-out">
                     <a href="https://www.she-awards.com/" target="_blank" rel="noopener">SHE Awards</a>
                 </div>                        
             </div>
