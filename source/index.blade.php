@@ -24,7 +24,6 @@
                     <h2 class="pb-4 text-2xl font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight heading">What We Do</h2>
                     <p>Western Business Media Limited publish leading business-to-business titles across a wide variety of UK business sectors. Find out more about our journals below...</p>
                 </div>          
-                    
 
                 <div class="swiper-container swiper-journals mt-8 lg:h-132">
                     <div class="swiper-wrapper">
@@ -54,34 +53,26 @@
             </div>
         </section>
 
-        <!-- SHE Awards -->
-        <section class="she-awards bg-gray-800">           
-            <div class="flex flex-wrap">
+        <!-- Events & Awards -->
+        <section class="py-12">
 
-                <div class="flex justify-center items-center w-full lg:w-1/2 bg-no-repeat bg-top">                
-                    <img src="{{ $page->baseUrl }}/assets/img/layout/she-logo-compressed.svg" alt="The Safety & Health Excellence Awards" class="p-12 w-140">
+            <div class="container mx-auto px-6">                
+                <div class="pt-4 text-gray-800 leading-relaxed">                    
+                    <h2 class="pb-4 text-2xl font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight heading">Events We Host</h2>
+                    <p>Western Business Media Limited also organises and hosts leading business-to-business conferences, exhibitions and awards across a wide variety of sectors.</p>
+                </div>     
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12 mt-8">
+
+                    @foreach($events as $event)
+                        @include('_components/event-component')
+                    @endforeach
+
                 </div>
 
-                <div class="w-full lg:w-1/2">
-
-                    <div class="container mx-auto">
-                        <div class="px-6 py-12 lg:pl-12 xl:max-w-2xl text-white leading-relaxed">
-                            <h2 class="pb-4 text-white text-2xl font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight heading">Safety &amp; Health Excellence Awards</h2>
-                            <p>The Safety &amp; Health Excellence (SHE) Awards attracts more than 550 guests from the safety, health, fire and security sectors and includes a sumptuous three course meal, table wine, drinks reception, live music, celebrity host and live entertainment.</p>
-                            <div class="flex-none mt-auto overflow-hidden pt-8">
-                                <div class="flex justify-end">   
-                                    <a href="https://www.she-awards.com" class="inline-flex justify-center items-center px-6 py-3 text-white font-semibold rounded-md uppercase" rel="noopener" target="_blank">
-                                        Find out more
-                                        <img class="ml-2" src="assets/img/layout/pointer-icon.svg" alt="Pointer icon" />
-                                    </a> 
-                                </div>
-                            </div>                                    
-                        </div>
-                    </div>
-
-                </div>            
-            </div>                       
         </section>
+
+
 
         <!-- Consultancy Services -->     
         <section class="bg-gray-300 pt-12 pb-10 text-grey-800 leading-relaxed">

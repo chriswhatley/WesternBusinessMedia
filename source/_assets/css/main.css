@@ -8,6 +8,6 @@
 
 @import "custom";
 @import "mouse-scroll-icon";
-/*@import "debugging";*/
+@import "debugging";
 
 @import "tailwindcss/utilities";

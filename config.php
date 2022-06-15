@@ -11,6 +11,7 @@ return [
 
     'collections' => [  
     	'testimonials',
-    	'journals' => ['sort' => 'sort-order']
+    	'journals' => ['sort' => 'sort-order'],
+        'events' => ['sort' => 'sort-order'],
     ],
 ];

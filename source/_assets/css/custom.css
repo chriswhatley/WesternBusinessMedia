@@ -1,7 +1,30 @@
 /*! purgecss start ignore */
+:root {
+    --cm: #939192;
+    --cda: #0380bd;
+    --fm: #1799d9;
+    --fsm: #ed1b2f;
+    --hsm: #E98A15;
+    --hss: #db1921;
+    --ipe: #b90b12;
+    --sm: #0d4e97;
+    --tomorrows-warehouse: #d2232a;
+    --cleaning-excellence-awards: #0088ce;
+    --she-awards: #ffc20e;
+    --fsm-awards: #ed1b2f;
+}
+
 html {
     font-family: 'Raleway', sans-serif;
 }           
+
+.border-dev {
+    @apply border border-solid border-teal-500 
+}
+
+.fade {
+    @apply opacity-100 transition duration-500 ease-in-out
+}
 
 .heading::before {
     display: block;
@@ -30,6 +53,26 @@ html {
   @apply mt-4
 }
 
+.event {
+    @apply h-48 px-6 relative flex justify-center items-center rounded-lg cursor-pointer bg-center bg-cover
+}
+
+.event .event-logo {
+    @apply w-full
+}
+
+.event .event-description {
+    @apply hidden bg-no-repeat bg-right bg-contain
+}
+
+.event .event-description h2 {
+    @apply pb-4 text-white text-lg font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight
+}
+
+.event .cta-button {
+    @apply inline-flex justify-center items-center px-6 py-3 text-white font-semibold rounded-md uppercase
+}
+
 .webp .hsm .header {
     background-image: url(../img/journals/hsm-bg-compressed.webp);
 }
@@ -39,11 +82,11 @@ html {
 }
 
 .hsm .heading::before {
-    border-color: #E98A15;
+    border-color: var(--hsm);
 }
 
 .hsm a {
-    background-color: #E98A15; 
+    background-color: var(--hsm); 
 }
 
 .webp .fsm .header {
@@ -55,11 +98,11 @@ html {
 }
 
 .fsm .heading::before {
-    border-color: #ed1b2f;
+    border-color: var(--fsm);
 }
 
 .fsm a {
-    background-color: #ed1b2f; 
+    background-color: var(--fsm); 
 }
 
 .webp .cda .header {
@@ -71,11 +114,11 @@ html {
 }
 
 .cda .heading::before {
-    border-color: #0380bd;
+    border-color: var(--cda);
 }
 
 .cda a {
-    background-color: #0380bd; 
+    background-color: var(--cda); 
 }
 
 .webp .ipe .header {
@@ -87,11 +130,11 @@ html {
 }
 
 .ipe .heading::before {
-    border-color: #b90b12;
+    border-color: var(--ipe);
 }
 
 .ipe a {
-    background-color: #b90b12; 
+    background-color: var(--ipe); 
 }
 
 .webp .hss .header {
@@ -103,11 +146,11 @@ html {
 }
 
 .hss .heading::before {
-    border-color: #db1921;
+    border-color: var(--hss);
 }
 
 .hss a {
-    background-color: #db1921; 
+    background-color: var(--hss); 
 }
 
 .webp .cm .header {
@@ -119,11 +162,11 @@ html {
 }
 
 .cm .heading::before {
-    border-color: #939192;
+    border-color: var(--cm);
 }
 
 .cm a {
-    background-color: #939192;
+    background-color: var(--cm);
 }
 
 .webp .fm .header {
@@ -135,11 +178,11 @@ html {
 }
 
 .fm .heading::before {
-    border-color: #1799d9;
+    border-color: var(--fm);
 }
 
 .fm a {
-    background-color: #1799d9;
+    background-color: var(--fm);
 }
 
 .webp .sm .header {
@@ -151,42 +194,92 @@ html {
 }
 
 .sm .heading::before {
-    border-color: #0d4e97;
+    border-color: var(--sm);
 }
 
 .sm a {
-    background-color: #0d4e97;
+    background-color: var(--sm);
 }
 
-.webp .mmi .header {
-    background-image: url(../img/journals/mmi-bg-compressed.webp);
+.webp .she-awards {
+    background-image: url(../img/events/she-awards-bg-compressed.webp);
 }
-
-.no-webp .mmi .header {
-    background-image: url(../img/journals/mmi-bg-compressed.jpg);
-}
-
-.mmi .heading::before {
-    border-color: #008739;
-}
-
-.mmi a {
-    background-color: #008739;
-}
-
-.webp .she-awards > div > div:nth-of-type(1) {
-    background-image: url(../img/journals/she-bg-compressed.webp);
-}
-.no-webp .she-awards > div > div:nth-of-type(1) {
-    background-image: url(../img/journals/she-bg-compressed.jpg);
+.no-webp .she-awards {
+    background-image: url(../img/events/she-awards-bg-compressed.jpg);
 }
 
 .she-awards .heading::before {
-    border-color: #ffc20e;
+     border-color: var(--she-awards);
 }
 
-.she-awards a {
-    background-color: #ffc20e; 
+.she-awards .cta-button {
+    background-color: var(--she-awards); 
+}
+
+.she-awards .event-description {
+    background-image: url(../img/events/she-awards-watermark-compressed.svg);
+}
+
+.webp .fsm-awards {
+    background-image: url(../img/events/fsm-awards-bg-compressed.webp);
+}
+.no-webp .fsm-awards {
+    background-image: url(../img/events/fsm-awards-bg-compressed.jpg);
+}
+
+.fsm-awards .event-description {
+    background-image: url(../img/events/fsm-awards-watermark-compressed.svg);
+}
+
+.fsm-awards .heading::before {
+     border-color: var(--fsm);
+}
+
+.fsm-awards .cta-button {
+    background-color: var(--fsm); 
+}
+
+.webp .tomorrows-warehouse {
+    background-image: url(../img/events/tomorrows-warehouse-bg-compressed.webp);
+}
+.no-webp .tomorrows-warehouse {
+    background-image: url(../img/events/tomorrows-warehouse-bg-compressed.jpg);
+}
+
+.tomorrows-warehouse .heading::before {
+    border-color: var(--tomorrows-warehouse);
+}
+
+.tomorrows-warehouse .event-description {
+    background-image: url(../img/events/tomorrows-warehouse-watermark-compressed.svg);
+}
+
+.tomorrows-warehouse .cta-button {
+    background-color: var(--tomorrows-warehouse); 
+}
+
+.webp .cleaning-excellence-awards {
+    background-image: url(../img/events/cleaning-excellence-awards-bg-compressed.webp);
+}
+
+.no-webp .cleaning-excellence-awards {
+    background-image: url(../img/events/cleaning-excellence-awards-bg-compressed.jpg);
+}
+
+.cleaning-excellence-awards .event-logo img {
+    @apply h-32
+}
+
+.cleaning-excellence-awards .event-description {
+    background-image: url(../img/events/cleaning-excellence-awards-watermark-compressed.svg);
+}
+
+.cleaning-excellence-awards .heading::before {
+    border-color: var(--cleaning-excellence-awards);
+}
+
+.cleaning-excellence-awards .cta-button {
+    background-color: var(--cleaning-excellence-awards); 
 }
 
 .testimonials {
@@ -196,4 +289,38 @@ html {
 footer .container  {
     background-image: url(../img/layout/wbm-watermark.svg);
 }
+
+@screen lg {
+    .event {
+        @apply h-88
+    }
+
+    .event:hover .event-logo {
+        @apply opacity-0 
+    }
+
+   .event .event-description {
+        @apply opacity-0 absolute z-50 h-88 p-8 flex text-white leading-relaxed bg-gray-800 rounded-lg overflow-hidden
+    }
+
+    .event:hover .event-description {
+        @apply opacity-100
+    }
+
+    .event .event-description h2 {
+        @apply text-xl
+    }
+
+    .cleaning-excellence-awards .event-logo img {
+        @apply h-48
+    }
+}
+
+@screen xl {
+    .event .event-logo {
+        @apply w-4/5
+    }
+}
 /*! purgecss end ignore */
+
+
