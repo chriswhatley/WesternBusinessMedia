@@ -4,7 +4,7 @@
 
             <div class="flex items-start mr-6">
                 <div class="inline-block w-4 h-4 mr-3 pt-1">
-                    <img class="" src="{{ $page->baseUrl }}/assets/img/layout/phone-icon-white.svg" alt="Phone icon" />
+                    <img class="" src="/assets/img/layout/phone-icon-white.svg" alt="Phone icon" />
                 </div>
                 <div>
                     <a href="tel:+44 1342314300">01342 314 300</a>
@@ -13,7 +13,7 @@
 
             <div class="flex items-start">
                 <div class="inline-block w-4 h-4 mr-3 pt-2">
-                    <img src="{{ $page->baseUrl }}/assets/img/layout/email-icon-white.svg" alt="Email icon" />
+                    <img src="/assets/img/layout/email-icon-white.svg" alt="Email icon" />
                 </div>
                 <div>
                     <a href="mailto:admin@westernbusiness.media">admin@westernbusiness.media</a>
@@ -29,13 +29,13 @@
 
         <div class="py-6 px-6 max-w-xs md:max-w-lg">                
             <a href="/">
-                <img src="{{ $page->baseUrl }}/assets/img/layout/wbm-logo.svg" alt="Western Business Media Limited" class="w-118">
+                <img src="/assets/img/layout/wbm-logo.svg" alt="Western Business Media Limited" class="w-118">
             </a>
         </div>
 
         <div class="hidden md:block md:w-full md:flex md:justify-end self-center pr-8">
             <a href="https://www.linkedin.com/company/western-business-exhibitions" target="_blank" rel="noopener">
-                <img class="h-8" src="{{ $page->baseUrl }}/assets/img/layout/linkedin-logo-compressed.png" alt="Follow us on LinkedIn">                                
+                <img class="h-8" src="/assets/img/layout/linkedin-logo-compressed.png" alt="Follow us on LinkedIn">                                
             </a>                               
         </div>
 

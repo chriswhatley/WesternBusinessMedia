@@ -12300,10 +12300,12 @@ $(document).ready(function ($) {
       scrollTop: $(id).offset().top
     }, 750);
   });
-}); // core version + navigation, pagination modules:
+});
 
- // configure Swiper to use modules
+// core version + navigation, pagination modules:
 
+
+// configure Swiper to use modules
 swiper__WEBPACK_IMPORTED_MODULE_0__["default"].use([swiper__WEBPACK_IMPORTED_MODULE_0__["Navigation"], swiper__WEBPACK_IMPORTED_MODULE_0__["Pagination"]]);
 var mySwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.swiper-journals', {
   loop: true,
@@ -12336,93 +12338,75 @@ var mySwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.swiper-testi
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
-
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 /*! modernizr 3.6.0 (Custom Build) | MIT *
  * https://modernizr.com/download/?-webp-setclasses !*/
 !function (e, n, A) {
   function o(e, n) {
     return _typeof(e) === n;
   }
-
   function t() {
     var e, n, A, t, a, i, l;
-
-    for (var f in r) {
-      if (r.hasOwnProperty(f)) {
-        if (e = [], n = r[f], n.name && (e.push(n.name.toLowerCase()), n.options && n.options.aliases && n.options.aliases.length)) for (A = 0; A < n.options.aliases.length; A++) {
-          e.push(n.options.aliases[A].toLowerCase());
-        }
-
-        for (t = o(n.fn, "function") ? n.fn() : n.fn, a = 0; a < e.length; a++) {
-          i = e[a], l = i.split("."), 1 === l.length ? Modernizr[l[0]] = t : (!Modernizr[l[0]] || Modernizr[l[0]] instanceof Boolean || (Modernizr[l[0]] = new Boolean(Modernizr[l[0]])), Modernizr[l[0]][l[1]] = t), s.push((t ? "" : "no-") + l.join("-"));
-        }
-      }
+    for (var f in r) if (r.hasOwnProperty(f)) {
+      if (e = [], n = r[f], n.name && (e.push(n.name.toLowerCase()), n.options && n.options.aliases && n.options.aliases.length)) for (A = 0; A < n.options.aliases.length; A++) e.push(n.options.aliases[A].toLowerCase());
+      for (t = o(n.fn, "function") ? n.fn() : n.fn, a = 0; a < e.length; a++) i = e[a], l = i.split("."), 1 === l.length ? Modernizr[l[0]] = t : (!Modernizr[l[0]] || Modernizr[l[0]] instanceof Boolean || (Modernizr[l[0]] = new Boolean(Modernizr[l[0]])), Modernizr[l[0]][l[1]] = t), s.push((t ? "" : "no-") + l.join("-"));
     }
   }
-
   function a(e) {
     var n = u.className,
-        A = Modernizr._config.classPrefix || "";
-
+      A = Modernizr._config.classPrefix || "";
     if (c && (n = n.baseVal), Modernizr._config.enableJSClass) {
       var o = new RegExp("(^|\\s)" + A + "no-js(\\s|$)");
       n = n.replace(o, "$1" + A + "js$2");
     }
-
     Modernizr._config.enableClasses && (n += " " + A + e.join(" " + A), c ? u.className.baseVal = n : u.className = n);
   }
-
   function i(e, n) {
-    if ("object" == _typeof(e)) for (var A in e) {
-      f(e, A) && i(A, e[A]);
-    } else {
+    if ("object" == _typeof(e)) for (var A in e) f(e, A) && i(A, e[A]);else {
       e = e.toLowerCase();
       var o = e.split("."),
-          t = Modernizr[o[0]];
+        t = Modernizr[o[0]];
       if (2 == o.length && (t = t[o[1]]), "undefined" != typeof t) return Modernizr;
       n = "function" == typeof n ? n() : n, 1 == o.length ? Modernizr[o[0]] = n : (!Modernizr[o[0]] || Modernizr[o[0]] instanceof Boolean || (Modernizr[o[0]] = new Boolean(Modernizr[o[0]])), Modernizr[o[0]][o[1]] = n), a([(n && 0 != n ? "" : "no-") + o.join("-")]), Modernizr._trigger(e, n);
     }
     return Modernizr;
   }
-
   var s = [],
-      r = [],
-      l = {
-    _version: "3.6.0",
-    _config: {
-      classPrefix: "",
-      enableClasses: !0,
-      enableJSClass: !0,
-      usePrefixes: !0
+    r = [],
+    l = {
+      _version: "3.6.0",
+      _config: {
+        classPrefix: "",
+        enableClasses: !0,
+        enableJSClass: !0,
+        usePrefixes: !0
+      },
+      _q: [],
+      on: function on(e, n) {
+        var A = this;
+        setTimeout(function () {
+          n(A[e]);
+        }, 0);
+      },
+      addTest: function addTest(e, n, A) {
+        r.push({
+          name: e,
+          fn: n,
+          options: A
+        });
+      },
+      addAsyncTest: function addAsyncTest(e) {
+        r.push({
+          name: null,
+          fn: e
+        });
+      }
     },
-    _q: [],
-    on: function on(e, n) {
-      var A = this;
-      setTimeout(function () {
-        n(A[e]);
-      }, 0);
-    },
-    addTest: function addTest(e, n, A) {
-      r.push({
-        name: e,
-        fn: n,
-        options: A
-      });
-    },
-    addAsyncTest: function addAsyncTest(e) {
-      r.push({
-        name: null,
-        fn: e
-      });
-    }
-  },
-      Modernizr = function Modernizr() {};
-
+    Modernizr = function Modernizr() {};
   Modernizr.prototype = l, Modernizr = new Modernizr();
   var f,
-      u = n.documentElement,
-      c = "svg" === u.nodeName.toLowerCase();
+    u = n.documentElement,
+    c = "svg" === u.nodeName.toLowerCase();
   !function () {
     var e = {}.hasOwnProperty;
     f = o(e, "undefined") || o(e.call, "undefined") ? function (e, n) {
@@ -12439,10 +12423,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
       var A = this._l[e];
       setTimeout(function () {
         var e, o;
-
-        for (e = 0; e < A.length; e++) {
-          (o = A[e])(n);
-        }
+        for (e = 0; e < A.length; e++) (o = A[e])(n);
       }, 0), delete this._l[e];
     }
   }, Modernizr._q.push(function () {
@@ -12451,39 +12432,31 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
     function e(e, n, A) {
       function o(n) {
         var o = n && "load" === n.type ? 1 == t.width : !1,
-            a = "webp" === e;
+          a = "webp" === e;
         i(e, a && o ? new Boolean(o) : o), A && A(n);
       }
-
       var t = new Image();
       t.onerror = o, t.onload = o, t.src = n;
     }
-
     var n = [{
-      uri: "data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=",
-      name: "webp"
-    }, {
-      uri: "data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==",
-      name: "webp.alpha"
-    }, {
-      uri: "data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA",
-      name: "webp.animation"
-    }, {
-      uri: "data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=",
-      name: "webp.lossless"
-    }],
-        A = n.shift();
+        uri: "data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=",
+        name: "webp"
+      }, {
+        uri: "data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==",
+        name: "webp.alpha"
+      }, {
+        uri: "data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA",
+        name: "webp.animation"
+      }, {
+        uri: "data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+        name: "webp.lossless"
+      }],
+      A = n.shift();
     e(A.name, A.uri, function (A) {
-      if (A && "load" === A.type) for (var o = 0; o < n.length; o++) {
-        e(n[o].name, n[o].uri);
-      }
+      if (A && "load" === A.type) for (var o = 0; o < n.length; o++) e(n[o].name, n[o].uri);
     });
   }), t(), a(s), delete l.addTest, delete l.addAsyncTest;
-
-  for (var p = 0; p < Modernizr._q.length; p++) {
-    Modernizr._q[p]();
-  }
-
+  for (var p = 0; p < Modernizr._q.length; p++) Modernizr._q[p]();
   e.Modernizr = Modernizr;
 }(window, document);
 

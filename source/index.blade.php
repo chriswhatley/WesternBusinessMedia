@@ -199,72 +199,72 @@
                 <div class="flex flex-wrap justify-center w-full mb-4">
                     <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5">
                     	<picture>
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-bsif-compressed.webp" type="image/webp">
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-bsif-compressed.png" type="image/png"> 
-	    					<img src="{{ $page->baseUrl }}/assets/img/clients/client-bsif-compressed.png" alt="BSIF">
+	    					<source srcset="/assets/img/clients/client-bsif-compressed.webp" type="image/webp">
+	    					<source srcset="/assets/img/clients/client-bsif-compressed.png" type="image/png"> 
+	    					<img src="/assets/img/clients/client-bsif-compressed.png" alt="BSIF">
 	            		</picture> 
                     </div>
                     <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5">
                     	<picture>
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-iirsm-compressed.webp" type="image/webp">
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-iirsm-compressed.png" type="image/png"> 
-	    					<img src="{{ $page->baseUrl }}/assets/img/clients/client-iirsm-compressed.png" alt="IIRSM">
+	    					<source srcset="/assets/img/clients/client-iirsm-compressed.webp" type="image/webp">
+	    					<source srcset="/assets/img/clients/client-iirsm-compressed.png" type="image/png"> 
+	    					<img src="/assets/img/clients/client-iirsm-compressed.png" alt="IIRSM">
 	            		</picture> 
                     </div>
                     <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5">
                     	<picture>
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-nineteen-compressed.webp" type="image/webp">
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-nineteen-compressed.png" type="image/png"> 
-	    					<img src="{{ $page->baseUrl }}/assets/img/clients/client-nineteen-compressed.png" alt="Nineteen">
+	    					<source srcset="/assets/img/clients/client-nineteen-compressed.webp" type="image/webp">
+	    					<source srcset="/assets/img/clients/client-nineteen-compressed.png" type="image/png"> 
+	    					<img src="/assets/img/clients/client-nineteen-compressed.png" alt="Nineteen">
 	            		</picture> 
                     </div>
                     <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5">
                     	<picture>
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-ssaib-compressed.webp" type="image/webp">
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-ssaib-compressed.png" type="image/png"> 
-	    					<img src="{{ $page->baseUrl }}/assets/img/clients/client-ssaib-compressed.png" alt="SSAIB">
+	    					<source srcset="/assets/img/clients/client-ssaib-compressed.webp" type="image/webp">
+	    					<source srcset="/assets/img/clients/client-ssaib-compressed.png" type="image/png"> 
+	    					<img src="/assets/img/clients/client-ssaib-compressed.png" alt="SSAIB">
 	            		</picture> 
                     </div>  
                     <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5">
                         <picture>
-                            <source srcset="{{ $page->baseUrl }}/assets/img/clients/client-reset-compliance-compressed.webp" type="image/webp">
-                            <source srcset="{{ $page->baseUrl }}/assets/img/clients/client-reset-compliance-compressed.png" type="image/png"> 
-                            <img src="{{ $page->baseUrl }}/assets/img/clients/client-reset-compliance-compressed.png" alt="Reset Compliance">
+                            <source srcset="/assets/img/clients/client-reset-compliance-compressed.webp" type="image/webp">
+                            <source srcset="/assets/img/clients/client-reset-compliance-compressed.png" type="image/png"> 
+                            <img src="/assets/img/clients/client-reset-compliance-compressed.png" alt="Reset Compliance">
                         </picture> 
                     </div>                                              
                     <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5">
                     	<picture>
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-facilities-event-compressed.webp" type="image/webp">
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-facilities-event-compressed.png" type="image/png"> 
-	    					<img src="{{ $page->baseUrl }}/assets/img/clients/client-facilities-event-compressed.png" alt="The Facilities Event">
+	    					<source srcset="/assets/img/clients/client-facilities-event-compressed.webp" type="image/webp">
+	    					<source srcset="/assets/img/clients/client-facilities-event-compressed.png" type="image/png"> 
+	    					<img src="/assets/img/clients/client-facilities-event-compressed.png" alt="The Facilities Event">
 	            		</picture> 
                     </div>   
                     <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5">
                     	<picture>
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-fire-safety-event-compressed.webp" type="image/webp">
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-fire-safety-event-compressed.png" type="image/png"> 
-	    					<img src="{{ $page->baseUrl }}/assets/img/clients/client-fire-safety-event-compressed.png" alt="The Fire Safety Event">
+	    					<source srcset="/assets/img/clients/client-fire-safety-event-compressed.webp" type="image/webp">
+	    					<source srcset="/assets/img/clients/client-fire-safety-event-compressed.png" type="image/png"> 
+	    					<img src="/assets/img/clients/client-fire-safety-event-compressed.png" alt="The Fire Safety Event">
 	            		</picture> 
                     </div>
                     <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5">
                     	<picture>
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-health-safety-event-compressed.webp" type="image/webp">
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-health-safety-event-compressed.png" type="image/png"> 
-	    					<img src="{{ $page->baseUrl }}/assets/img/clients/client-health-safety-event-compressed.png" alt="The Health & Safety Event">
+	    					<source srcset="/assets/img/clients/client-health-safety-event-compressed.webp" type="image/webp">
+	    					<source srcset="/assets/img/clients/client-health-safety-event-compressed.png" type="image/png"> 
+	    					<img src="/assets/img/clients/client-health-safety-event-compressed.png" alt="The Health & Safety Event">
 	            		</picture> 
                     </div>
                     <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5">
                     	<picture>
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-security-event-compressed.webp" type="image/webp">
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-security-event-compressed.png" type="image/png"> 
-	    					<img src="{{ $page->baseUrl }}/assets/img/clients/client-security-event-compressed.png" alt="The Security Event">
+	    					<source srcset="/assets/img/clients/client-security-event-compressed.webp" type="image/webp">
+	    					<source srcset="/assets/img/clients/client-security-event-compressed.png" type="image/png"> 
+	    					<img src="/assets/img/clients/client-security-event-compressed.png" alt="The Security Event">
 	            		</picture> 
                     </div>                    
                     <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5">
                     	<picture>
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-international-security-expo-compressed.webp" type="image/webp">
-	    					<source srcset="{{ $page->baseUrl }}/assets/img/clients/client-international-security-expo-compressed.png" type="image/png"> 
-	    					<img src="{{ $page->baseUrl }}/assets/img/clients/client-international-security-expo-compressed.png" alt="International Security Expo">
+	    					<source srcset="/assets/img/clients/client-international-security-expo-compressed.webp" type="image/webp">
+	    					<source srcset="/assets/img/clients/client-international-security-expo-compressed.png" type="image/png"> 
+	    					<img src="/assets/img/clients/client-international-security-expo-compressed.png" alt="International Security Expo">
 	            		</picture> 
                     </div> 
                 </div>                   

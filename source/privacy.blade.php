@@ -6,7 +6,7 @@
             <h2 class="pb-4 text-grey-900 text-3xl lg:text-2xl font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight heading">Privacy Policy</h2>                        
 
             <div class="text-gray-800 subpixel-antialiased tracking-tight">
-                <p class="mb-2">Western Business Media Ltd is the publisher of "Industrial Plant & Equipment", "Controls, Drives & Automation", "Health & Safety Matters", "Cleaning Matters", "Fire Safety Matters", "Security Matters" and "Handling & Storage Solutions". They are also the organiser of  "The Safety & Health Excellence awards".</p>
+                <p class="mb-2">Western Business Media Ltd is the publisher of “Industrial Plant & Equipment”, “Controls, Drives & Automation”, “Health & Safety Matters”, “Cleaning Matters”, “Fire Safety Matters”, "Security Matters", “Logistics Matters”, “Professional Security Installer”, “Benchmark”, and “Risk Xtra” magazines. They are also the organiser of “The Safety & Health Excellence awards”, “Fire and Security Matters Awards”, "Cleaning Excellence Awards" and the “PSI Premier Awards”.</p>
                 <p class="mb-2">This privacy policy explains how we use any personal information we collect about you when you register for one of our magazines.</p>
 
                 <h4 class="mt-4 pb-4 text-grey-900 text-base font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight heading">What information do we collect about you?</h4>
@@ -18,7 +18,7 @@
                 <p class="mb-2">If you have subscribed to one of our magazines we will use your data to fulfil this subscription. We will also store contact details so that we can alert you of any changes to your subscription and to inform you when your subscription is coming to an end.</p>
                 <p class="mb-2">If you have entered in one of our awards categories we will use your data to contact you about the progress of your nomination, this will be to keep you up to date about when a winner is chosen and when tables become available. We will also contact you to announce when entries open for the following year so you can enter again.</p>
                 <p class="mb-2">Your data will be held for 5 years, the length of a subscription is 3 years, this allows 3 years of subscription one year to renew and another year for last chance to renew. </p>
-                <p class="mb-2">We may share your personal data with a third-party auditing organisation (ABC) so they can verify aggregated statistics about circulation and usage of our products or review our policies, processes and procedures for compliance with relevant standards. You can view their privacy policy by following this link.</p>
+                <p class="mb-2">We may share your personal data with a third-party auditing organisation (ABC) so they can verify aggregated statistics about circulation and usage of our products or review our policies, processes and procedures for compliance with relevant standards. You can view their privacy policy by following <a href="https://www.abc.org.uk/privacy-policy" target="_blank" rel="noopener" class="font-semibold hover:text-red-600 transition duration-300 ease-in-out">this link</a>.</p>
 
                 <h4 class="mt-4 pb-4 text-grey-900 text-base font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight heading">Marketing</h4>                
                 <p class="mb-2">We would like to send you information about products and services of ours which may be of interest to you. If you have consented to marketing you may opt out at a later date.</p>
@@ -41,12 +41,12 @@
                 
                 <h4 class="mt-4 pb-4 text-grey-900 text-base font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight heading">Changes to our privacy policy</h4>                                                
                 <p class="mb-2">As the world of data protection is constantly changing, so is our privacy policy. We keep our privacy policy under regular review and we will place any updates on this web page.</p>
-                <p class="mb-2">This privacy policy was last updated on <span class="font-semibold">06 December 2019</span>.</p>
+                <p class="mb-2">This privacy policy was last updated on <span class="font-semibold">21 November 2023</span>.</p>
 
                 <h4 class="mt-4 pb-4 text-grey-900 text-base font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight heading">How to contact us</h4>                                                
                 <p class="mb-2">Please contact us if you have any questions about our privacy policy or information we hold about you:</p>
                 <p class="mb-2">For further information on cookies please visit <a href="https://www.allaboutcookies.org" target="_blank" rel="noopener" class="font-semibold hover:text-red-600 transition duration-300 ease-in-out">www.allaboutcookies.org</a></p>
-                <p class="mb-2">By email: <a href="mailto:jmullender@western-bp.co.uk" target="_blank" class="font-semibold hover:text-red-600 transition duration-300 ease-in-out">jmullender@western-bp.co.uk</a></p>
+                <p class="mb-2">By email: <a href="mailto:admin@westernbusiness.media" target="_blank" class="font-semibold hover:text-red-600 transition duration-300 ease-in-out">admin@westernbusiness.media</a></p>
                 <p class="mb-2">Or write to us at : Western Business Media Ltd, Data department, Dorset House, 64 High Street, East Grinstead, West Sussex, RH19 3DE</p>
             </div>   
         </div> 

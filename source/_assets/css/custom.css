@@ -137,19 +137,19 @@ html {
     background-color: var(--ipe); 
 }
 
-.webp .hss .header {
+.webp .lm .header {
     background-image: url(../img/journals/hss-bg-compressed.webp);
 }
 
-.no-webp .hss .header {
+.no-webp .lm .header {
     background-image: url(../img/journals/hss-bg-compressed.jpg);
 }
 
-.hss .heading::before {
+.lm .heading::before {
     border-color: var(--hss);
 }
 
-.hss a {
+.lm a {
     background-color: var(--hss); 
 }
 
