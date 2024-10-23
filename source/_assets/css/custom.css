@@ -12,6 +12,7 @@
     --cleaning-excellence-awards: #0088ce;
     --she-awards: #ffc20e;
     --fsm-awards: #ed1b2f;
+    --primary-highlight: #E53E3E;
 }
 
 html {
@@ -35,7 +36,7 @@ html {
     width: 3.25rem;                
     margin-bottom: 1rem;
     border-bottom: solid 4px;
-    border-color: #E53E3E;
+    border-color: var(--primary-highlight);
 }
 
 .about-wbm  {
@@ -286,9 +287,70 @@ html {
     background-image: url(../img/layout/conversation.svg);
 }
 
+#tabs-nav {
+    a {
+        @apply inline-block w-full px-3 py-4 text-center text-sm font-extrabold uppercase leading-tight bg-gray-300 text-gray-800
+    }
+
+    .active a {
+        background-color: var(--primary-highlight);
+        @apply text-white        
+    }
+}
+
+
+#tabs-content {
+    h2, h4 {
+        @apply pb-4 text-gray-900 font-bold leading-tight subpixel-antialiased tracking-normal uppercase tracking-tight
+    }
+
+    h2 {
+        @apply text-xl
+    }
+
+    h4 {
+        @apply text-base
+    }
+
+    section {
+        @apply mb-8
+    }
+
+    p {
+        @apply mb-2
+    }
+
+    ol, ul {
+        @apply ml-6
+    }
+
+    ol {
+        @apply list-decimal
+    }
+
+    ul {
+        @apply list-disc
+    }
+
+    ol[type=a]
+    {
+        list-style-type: revert-layer;
+    }
+
+    li {
+        @apply py-1
+    }
+}
+
 footer .container  {
     background-image: url(../img/layout/wbm-watermark.svg);
 }
+
+/*@screen md {
+    #tabs-nav a {
+        @apply text-lg
+    }
+}*/
 
 @screen lg {
     .event {
@@ -313,6 +375,14 @@ footer .container  {
 
     .cleaning-excellence-awards .event-logo img {
         @apply h-48
+    }
+
+    #tabs-nav a {
+        @apply text-lg
+    }
+
+    #tabs-content h2 {
+        @apply text-2xl 
     }
 }
 
